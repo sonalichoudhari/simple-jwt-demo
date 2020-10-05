@@ -13,7 +13,7 @@ public class SimpleJwtDemoApplication {
 		SpringApplication.run(SimpleJwtDemoApplication.class, args);
 	}
 	
-	public static void test() {
+	public void test() {
 		System.out.println("*****simple demo project started*****");
 	}
 
