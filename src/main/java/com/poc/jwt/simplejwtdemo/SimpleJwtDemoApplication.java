@@ -9,7 +9,12 @@ import org.springframework.context.annotation.ComponentScan;
 public class SimpleJwtDemoApplication {
 
 	public static void main(String[] args) {
+		test();
 		SpringApplication.run(SimpleJwtDemoApplication.class, args);
+	}
+	
+	public static void test() {
+		System.out.println("*****simple demo project started*****");
 	}
 
 }
